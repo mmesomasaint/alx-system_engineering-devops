@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^[[:alpha:]]' /etc/passwd
+sed "s/A/Z/" | sed "s/c/e/"
