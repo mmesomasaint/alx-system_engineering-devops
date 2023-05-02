@@ -17,7 +17,13 @@ For this project, you will need to write Bash scripts to automate your work. All
 
 ### Tasks
 * Double the number of webservers
+
   configure web-02 to be identical to web-01. Fortunately, you built a Bash script during your web server project, and they’ll now come in handy to easily configure web-02. Remember, always try to automate your work!
 
-* Install and configure HAproxy on your lb-01 server.
-* Add a custom HTTP header with Puppet. 
+* Install your load balancer
+  
+  Install and configure HAproxy on your lb-01 server.
+  
+* Add a custom HTTP header with Puppet
+  
+  Add a custom HTTP header with Puppet. 
